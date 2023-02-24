@@ -5,7 +5,7 @@
 }
 /* header */
 header {
-  background-image: url(/imgs/headfoot.jpg);
+  background-image: url(../imgs/headfoot.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -45,7 +45,7 @@ header {
 }
 /* main */
 main {
-  background-image: url(/imgs/fonde.jpg);
+  background-image: url(../imgs/fonde.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -128,7 +128,7 @@ h1 {
 }
 /* footer */
 footer {
-  background-image: url(/imgs/headfoot.jpg);
+  background-image: url(../imgs/headfoot.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
