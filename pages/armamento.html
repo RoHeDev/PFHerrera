@@ -25,7 +25,7 @@
       <nav class="navbar navbar-expand-lg navbar navbar-dark navbar-bg-image">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="../imgs/ft.png" alt="tienda logo" width="50" />
+            <img src="../imgs/ft.png" alt="tienda logo" class="logo" />
           </a>
           <button
             class="navbar-toggler"
@@ -71,98 +71,95 @@
         </div>
       </section>
       <section>
-        <div class="carta">
-          <img
-            class="carta__imagen"
-            src="../imgs/portal.png.webp"
-            alt="Portal Gun"
-          />
-          <h4 class="carta__titulo">Portal Gun</h4>
-          <p class="carta__parrafo">
-            La Portal Gun es una herramienta de la corpociacion Aperture Science
-            le otorga al usuario la capacidad de crear portales en superficies
-            solidad , es muy util para transporte , comercio , ataques sorpresas
-            , etc solo la imaginacion le puede poner un limite a la Portal Gun.
-            Pd:aconcejamos que si sale una caja con corazon de un portal la
-            arroje a un incinerador.
-          </p>
-          <button class="carta__boton">COMPRAR</button>
-        </div>
-        <div class="carta">
-          <img
-            class="carta__imagen"
-            src="../imgs/mjolnir.png"
-            alt="El Martillo Mjólnir"
-          />
-          <h4 class="carta__titulo">Mjolnir</h4>
-          <p class="carta__parrafo">
-            El Mjolnir es el arma del dios del trueno de la mitologia
-            escandinava : "THOR" . El mjolnir solo aparece a quienes son
-            "dignos". Otorga la capacidad de volar , como de golpear con truenos
-            y una fuerza descomunal.
-          </p>
-          <button class="carta__boton">COMPRAR</button>
-        </div>
-        <div class="carta">
-          <img
-            class="carta__imagen"
-            src="../imgs/varita.jpg"
-            alt="varita de sauco"
-          />
-          <h4 class="carta__titulo">Varita de Sauco</h4>
-          <p class="carta__parrafo">
-            La Varita de Sauco es una varita magica utilizada por el legendario
-            mago Harry Popote para derrotar a Lord Valdomero. La varita solo
-            sirve para magos , en manos de Mugres no funcionara.
-          </p>
-          <button class="carta__boton">COMPRAR</button>
-        </div>
-        <div class="carta">
-          <img
-            class="carta__imagen"
-            src="../imgs/espada.jpg"
-            alt="Espada de Energia"
-          />
-          <h4 class="carta__titulo">Espada de Energia</h4>
-          <p class="carta__parrafo">
-            La Espada de Energia procede de la Dimension Halo , una dimension
-            mucho mas avanzada que esta. La espada le permite al usuarios
-            rebanar como queso a lo que se le cruze sea un extraterrestre de 2
-            metros o una milanesa. Muy recomendada ya que su corte puede cocinar
-            la carne que corta.
-          </p>
-          <button class="carta__boton">COMPRAR</button>
-        </div>
-
-        <div class="carta">
-          <img
-            class="carta__imagen"
-            src="../imgs/trueno.jpg"
-            alt="Rayo de Zeus"
-          />
-          <h4 class="carta__titulo">Rayo de Zeus</h4>
-          <p class="carta__parrafo">
-            El Rayo de Zeus es el arma del Dios Zeus de la Mitologia Griega,
-            Forjada por Ciclopes. El Rayo otorga a su portador el poder de los
-            rayos para chamuscar a sus enemigos o cargar una bateria.
-          </p>
-          <button class="carta__boton">COMPRAR</button>
-        </div>
-        <div class="carta">
-          <img class="carta__imagen" src="../imgs/bfg9000.png" alt="BFG 9000" />
-          <h4 class="carta__titulo">BFG 9000</h4>
-          <p class="carta__parrafo">
-            La BFG 9000 es un arma proveniente de una dimension apocalipticas en
-            la que los demonios andan por doquier. <br />
-            Es un arma con la capacidad de destruir paises con un solo
-            proyectil, aunque de escasa municion es el mejor arma cuando todo de
-            va a la mierda.
-          </p>
-          <button class="carta__boton">COMPRAR</button>
-        </div>
-
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="../imgs/portal.png.webp" class="card-img-top" alt="Portal Gun">
+                <div class="card-body">
+                  <h5 class="card-title">Portal Gun</h5>
+                  <p class="card-text">La Portal Gun es una herramienta de la corpociacion Aperture Science
+                    le otorga al usuario la capacidad de crear portales en superficies
+                    solidad , es muy util para transporte , comercio , ataques sorpresas
+                    , etc solo la imaginacion le puede poner un limite a la Portal Gun.
+                    Pd:aconcejamos que si sale una caja con corazon de un portal la
+                    arroje a un incinerador.</p>
+                  <button type="button" class="carta__boton">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="../imgs/mjolnir.png" class="card-img-top" alt="Mjolnir">
+                <div class="card-body">
+                  <h5 class="card-title">El Mjolnir</h5>
+                  <p class="card-text">El Mjolnir es el arma del dios del trueno de la mitologia
+                    escandinava : "THOR" . El mjolnir solo aparece a quienes son
+                    "dignos". Otorga la capacidad de volar , como de golpear con truenos
+                    y una fuerza descomunal.</p>
+                  <button type="button" class="carta__boton">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="../imgs/varita.jpg" class="card-img-top" alt="Varita de Sauco">
+                <div class="card-body">
+                  <h5 class="card-title">Varita de Sauco</h5>
+                  <p class="card-text">La Varita de Sauco es una varita magica utilizada por el legendario
+                    mago Harry Popote para derrotar a Lord Valdomero. La varita solo
+                    sirve para magos , en manos de Mugres no funcionara.</p>
+                  <button type="button" class="carta__boton">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="../imgs/espada.jpg" class="card-img-top" alt="Espada de Energia">
+                <div class="card-body">
+                  <h5 class="card-title">Espada de Energia</h5>
+                  <p class="card-text">La Espada de Energia procede de la Dimension Halo , una dimension
+                    mucho mas avanzada que esta. La espada le permite al usuarios
+                    rebanar como queso a lo que se le cruze sea un extraterrestre de 2
+                    metros o una milanesa. Muy recomendada ya que su corte puede cocinar
+                    la carne que corta.</p>
+                  <button type="button" class="carta__boton">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="../imgs/trueno.jpg" class="card-img-top" alt="Rayo de Zeus">
+                <div class="card-body">
+                  <h5 class="card-title">El Rayo de Zeus</h5>
+                  <p class="card-text">El Rayo de Zeus es el arma del Dios Zeus de la Mitologia Griega,
+                    Forjada por Ciclopes. El Rayo otorga a su portador el poder de los
+                    rayos para chamuscar a sus enemigos o cargar una bateria.</p>
+                  <button type="button" class="carta__boton">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="../imgs/bfg9000.png" class="card-img-top" alt="BFG 9000">
+                <div class="card-body">
+                  <h5 class="card-title">BFG 9000</h5>
+                  <p class="card-text">La BFG 9000 es un arma proveniente de una dimension apocalipticas en
+                    la que los demonios andan por doquier. <br />
+                    Es un arma con la capacidad de destruir paises con un solo
+                    proyectil, aunque de escasa municion es el mejor arma cuando todo de
+                    va a la mierda.</p>
+                  <button type="button" class="carta__boton">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+          </div>     
+      </section>
+      <section>
         <div>
-          <p>
+          <p class="adv">
             Fantasy Tienda no se hace cargo del mal uso de sus productos , ni
             reembolsara una compra accidental . Recuerde que si llego a nuestra
             tienda es su destino y lo que sea que le suceda no es nuestra
@@ -173,8 +170,8 @@
     </main>
     <footer>
       <div>
-        <h2>Derechos reservados a Fantasy Tienda</h2>
-        <p>
+        <h2 class="foottext">Derechos reservados a Fantasy Tienda</h2>
+        <p class="foottext">
           cualquier forma de violacion de estos derechos se considera una
           provocacion hacia el Comercio Interdimensional que terminara con el
           exterminio del infractor.

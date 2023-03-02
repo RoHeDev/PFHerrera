@@ -3,21 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
 /* header */
 header {
-  background-image: url(../imgs/headfoot.jpg);
+  background-image: url("../imgs/headfoot.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .nav-item a {
   list-style-type: none;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: rgb(196, 114, 8);
@@ -32,20 +31,23 @@ header {
 }
 
 .logo {
-  height: 5rem;
-  width: 5rem;
+  height: 10vh;
+  width: 50;
 }
 /* pag index */
 .index {
+  display: grid;
+  place-items: center;
+}
+.textito {
   text-align: center;
   color: rgb(196, 114, 8);
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: larger;
 }
 /* main */
 main {
-  background-image: url(../imgs/fonde.jpg);
+  background-image: url("../imgs/fonde.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -55,68 +57,52 @@ main {
   place-items: center;
 }
 .tienda__logo {
-  width: 50%;
+  width: 100%;
+  height: auto;
 }
 
 h1 {
   color: rgb(196, 114, 8);
   text-align: center;
-  font-family: "Roboto", sans-serif;
+
   font-weight: bold;
 } /* servicio , medicina, armamento */
 .alerta {
   color: brown;
   text-align: center;
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
-} /* cards productos y servicio */
-.carta {
-  border-radius: 10px;
-  width: 32%;
-  background-color: blueviolet;
-  padding: 10px;
-  display: inline-block;
+}
+/* cards productos y servicio */
+.card {
   margin: 10px;
-  overflow: auto;
 }
 
-.carta__imagen {
-  width: 100%;
+.card-body,
+.card {
+  background-color: blueviolet;
 }
-.carta__titulo,
+
 .card-title {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: rgb(196, 114, 8);
 }
 
-.carta__parrafo {
-  font-family: "Roboto", sans-serif;
+.card-text {
   font-weight: bold;
   color: blanchedalmond;
 }
 
 .carta__boton {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: blueviolet;
   background-color: rgb(196, 114, 8);
-
   padding: 10px;
   border-radius: 10px;
   border: none;
-}
-.carta,
-.carta__imagen,
-.carta__titulo,
-.carta__parrafo,
-.carta__boton {
   margin-bottom: 10px;
 }
 /* pag contacto */
 .contacto {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: rgb(80, 3, 45);
   display: grid;
@@ -124,16 +110,21 @@ h1 {
 }
 .contacto img {
   width: 100%;
-  height: 75vh;
+  height: auto;
+}
+.adv {
+  color: rgb(196, 114, 8);
+  text-align: center;
 }
 /* footer */
 footer {
-  background-image: url(../imgs/headfoot.jpg);
+  background-image: url("../imgs/headfoot.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
-  text-align: center;
+}
+.foottext {
   color: blueviolet;
-  font-family: "Roboto", sans-serif;
+  text-align: center;
   font-weight: bold;
 }
