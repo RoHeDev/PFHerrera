@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$primary-color: blueviolet;
+$secondary-color: rgb(196, 114, 8);
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  color: $secondary-color;
+  text-align: center;
+  font-weight: bold;
+} /* servicio , medicina, armamento */
+.alerta {
+  color: brown;
+  text-align: center;
+  font-weight: bold;
+}
+.adv {
+  color: $secondary-color;
+  text-align: center;
+}

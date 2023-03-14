@@ -1,0 +1,26 @@
+/* pag index */
+.index {
+  display: grid;
+  place-items: center;
+}
+.textito {
+  text-align: center;
+  color: $secondary-color;
+  font-weight: bold;
+  font-size: larger;
+}
+/* main */
+main {
+  background-image: url("../imgs/fonde.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 10px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.tienda__logo {
+  width: 100%;
+  height: auto;
+}

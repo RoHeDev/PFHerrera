@@ -1,0 +1,25 @@
+/* cards productos y servicio */
+.card {
+  margin: 10px;
+  background-color: $primary-color;
+}
+
+.card-title {
+  font-weight: bold;
+  color: $secondary-color;
+}
+
+.card-text {
+  font-weight: bold;
+  color: blanchedalmond;
+}
+
+.carta__boton {
+  font-weight: bold;
+  color: $primary-color;
+  background-color: $secondary-color;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+}

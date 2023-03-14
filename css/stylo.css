@@ -3,13 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Roboto", sans-serif;
 }
+
+h1 {
+  color: rgb(196, 114, 8);
+  text-align: center;
+  font-weight: bold;
+} /* servicio , medicina, armamento */
+.alerta {
+  color: brown;
+  text-align: center;
+  font-weight: bold;
+}
+
+.adv {
+  color: rgb(196, 114, 8);
+  text-align: center;
+}
+
 /* header */
 header {
-  background-image: url("../imgs/headfoot.jpg");
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, #ff4d00, #ff7000, #fd8d00, #f9a700, #f4bf00);
   background-size: cover;
   width: 100%;
 }
@@ -26,25 +43,29 @@ header {
   border-radius: 5px;
 }
 .nav-item a:hover {
+  transition: 1s;
   color: blueviolet;
-  background-color: rgb(196, 114, 8);
+  background-image: linear-gradient(to top, #ff4d00, #ff7000, #fd8d00, #f9a700, #f4bf00);
 }
 
 .logo {
   height: 10vh;
   width: 50;
 }
+
 /* pag index */
 .index {
   display: grid;
   place-items: center;
 }
+
 .textito {
   text-align: center;
   color: rgb(196, 114, 8);
   font-weight: bold;
   font-size: larger;
 }
+
 /* main */
 main {
   background-image: url("../imgs/fonde.jpg");
@@ -56,29 +77,15 @@ main {
   display: grid;
   place-items: center;
 }
+
 .tienda__logo {
   width: 100%;
   height: auto;
 }
 
-h1 {
-  color: rgb(196, 114, 8);
-  text-align: center;
-
-  font-weight: bold;
-} /* servicio , medicina, armamento */
-.alerta {
-  color: brown;
-  text-align: center;
-  font-weight: bold;
-}
 /* cards productos y servicio */
 .card {
   margin: 10px;
-}
-
-.card-body,
-.card {
   background-color: blueviolet;
 }
 
@@ -101,6 +108,7 @@ h1 {
   border: none;
   margin-bottom: 10px;
 }
+
 /* pag contacto */
 .contacto {
   font-weight: bold;
@@ -108,23 +116,23 @@ h1 {
   display: grid;
   place-items: center;
 }
+
 .contacto img {
   width: 100%;
   height: auto;
 }
-.adv {
-  color: rgb(196, 114, 8);
-  text-align: center;
-}
+
 /* footer */
 footer {
-  background-image: url("../imgs/headfoot.jpg");
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to top, #ff4d00, #ff7000, #fd8d00, #f9a700, #f4bf00);
   background-size: cover;
   padding: 20px;
 }
+
 .foottext {
   color: blueviolet;
   text-align: center;
   font-weight: bold;
 }
+
+/*# sourceMappingURL=stylo.css.map */

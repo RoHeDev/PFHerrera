@@ -1,0 +1,41 @@
+/* header */
+header {
+  background-image: linear-gradient(
+    to bottom,
+    #ff4d00,
+    #ff7000,
+    #fd8d00,
+    #f9a700,
+    #f4bf00
+  );
+  background-size: cover;
+  width: 100%;
+}
+.nav-item a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $secondary-color;
+  background-color: $primary-color;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+
+  &:hover {
+    transition: 1s;
+    color: $primary-color;
+    background-image: linear-gradient(
+      to top,
+      #ff4d00,
+      #ff7000,
+      #fd8d00,
+      #f9a700,
+      #f4bf00
+    );
+  }
+}
+.logo {
+  height: 10vh;
+  width: 50;
+}

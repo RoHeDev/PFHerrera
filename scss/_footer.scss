@@ -1,0 +1,18 @@
+/* footer */
+footer {
+  background-image: linear-gradient(
+    to top,
+    #ff4d00,
+    #ff7000,
+    #fd8d00,
+    #f9a700,
+    #f4bf00
+  );
+  background-size: cover;
+  padding: 20px;
+}
+.foottext {
+  color: $primary-color;
+  text-align: center;
+  font-weight: bold;
+}
