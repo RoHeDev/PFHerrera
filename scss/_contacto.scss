@@ -1,9 +1,11 @@
 /* pag contacto */
 .contacto {
   font-weight: bold;
-  color: rgb(80, 3, 45);
+  color: $secondary-color;
   display: grid;
   place-items: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 .contacto img {
   width: 100%;
